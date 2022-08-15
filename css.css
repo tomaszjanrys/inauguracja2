@@ -156,7 +156,21 @@
 }
 
 /* End Licznik  */
+/* BTN */
+.btn{
+    background:             transparent url('Rectangle13.svg') 0% 0% no-repeat padding-box;
+    border-radius:          20px;
+    width:                  455px;
+    height:                 75px;
+    text-align:             center;
+}
+.btn-txt{
+    color:            #FFFFFF;
+    font:               normal normal normal 30px/45px URW Antiqua;
+    letter-spacing:     9px;
 
+}
+/* END BTN */
 
 /* end All counting-down */
 
@@ -166,8 +180,24 @@
 .register{
     background-color:     darkorange;
     height:                 1000px; 
-    position:                 relative;  
+    position:                relative;  
 }
+
+
+.mg5-left{
+    position:       absolute;
+        bottom:     0px;
+    width: 287px;
+    height: 449px;
+}
+.mg6-right{
+    position:       absolute;
+        top:     0px;
+        right:    0px;
+    width: 287px;
+    height: 449px;
+}
+
 /* end register */
 
 /* ---------------------------------------------------------- */
