@@ -1,0 +1,177 @@
+*{
+    box-sizing:     border-box;
+    margin:         0;
+    padding:        0;
+}
+/* ---------------------------------------------------------- */
+/* Główny koneter */
+.mainContainer{
+    background-color:       cadetblue;
+
+    height:                 2160px; 
+ 
+    
+}
+/* END Główny koneter */
+
+/* ---------------------------------------------------------- */
+
+/* Menu */
+.logo {
+    display:        flex;
+        flex-direction: row;
+        align-items: center;
+
+        
+    position:       absolute;
+        top:            23px;
+        left:           140px;
+
+}
+.logo img{
+    height:             105px;
+    width:              105px;
+}
+/* text Wyższa Szkoła */
+.logo p {
+
+    color:              #FFFFFF;
+    font:               normal normal normal 29px/46px Ubuntu;
+    letter-spacing:     0.87px;
+ 
+    padding:            0 0 0 23px;
+}
+/* END = text Wyższa Szkoła */
+
+.nav-menu{
+    background:               transparent url('Rectangle1.svg') 0% 0% no-repeat padding-box;
+    height:                   152px;
+    position:                 relative; 
+}
+/* END Menu */
+
+
+/* ---------------------------------------------------------- */
+
+
+/* All counting-down */
+.counting-down{
+    display:            flex;
+        flex-direction: column;
+        align-items:    center;
+
+    background-color:       rgb(255, 255, 255);
+    height:                   1008px;
+    position:                 relative; 
+
+
+}
+
+
+/* grafika */
+.mg1-person{
+  
+   
+    height:     843px;
+    position:   absolute;
+        top:    85px;
+        left:   115px;
+    width:      482px;
+    z-index: 1;
+ 
+}
+.mg3-left{
+    position:       absolute;
+        left:       0px;
+    width:          572px;
+    height:         453px;
+}
+.mg4-right{
+    position: absolute;
+        bottom: 0px;
+        right: 0px;
+}
+/* End grafika */
+
+/* Główny text */
+.mainTxt{
+    
+    background-color: #ffffff;
+ 
+    
+}
+.txt1 {
+    color:                #000000;
+    font:                   normal normal normal 132px/211px Grafolita Script;
+    letter-spacing:         0px;
+    text-align:             center;
+}
+.txt2 {
+    color:            #000000;   
+    font:               normal normal normal 42px/68px URW Antiqua;
+    letter-spacing:     12.6px;
+    text-align:         center;
+}
+.txt3{
+    color:            #000000;   
+    font:               normal normal normal 42px/68px URW Antiqua;
+    letter-spacing:     12.6px;
+    text-align:         center;
+}
+/* END Główny text */
+
+/* Licznik  */
+.cd{
+    display:            flex;
+    flex-direction:     row;
+    
+    justify-content:    space-around;
+    align-items:        center;
+   
+    width:              100%;
+    height:             100%;
+    z-index:            2;
+
+}
+
+.window-cd-1 ,
+.window-cd-2 ,
+.window-cd-3{
+    
+    background:             transparent url('Rectangle8.svg') 0% 0% no-repeat padding-box;
+    color:                  #2B488B;
+    font:                   normal normal normal 175px/200px URW Antiqua;
+    height:                 294px;
+    letter-spacing:         3.5px;
+  
+    text-align:             center;
+    width:                  322px;
+
+}
+.num{
+    color:            #2B488B;    
+    letter-spacing:     12px;
+    font:               normal normal normal 40px/64px URW Antiqua;
+    text-align:         center;
+}
+
+/* End Licznik  */
+
+
+/* end All counting-down */
+
+/* ---------------------------------------------------------- */
+
+/* register */
+.register{
+    background-color:     darkorange;
+    height:                 1000px; 
+    position:                 relative;  
+}
+/* end register */
+
+/* ---------------------------------------------------------- */
+
+
+
+
