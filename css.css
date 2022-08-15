@@ -178,6 +178,7 @@
 
 /* register */
 .register{
+    
     background-color:     darkorange;
     height:                 1000px; 
     position:                relative;  
@@ -201,7 +202,37 @@
 /* end register */
 
 /* ---------------------------------------------------------- */
+/* Licznik  */
+.counter-1{
+    display:                flex;
+        flex-direction:     column;
+        align-items:        center;
+}
+/* ENd licznik */
 
+/* Text pod licznikiem */
+.counter-1 .counterTxt-1{
+    color:          #2B488B;
+    font:             normal normal normal 250px/337px URW Antiqua;
+    letter-spacing:   5px;
+    
+    }
+.mainTxt-1 .txt-1{
+    
+    color:              #2B488B;
+    font:               normal normal normal 35px/48px URW Antiqua;
+    letter-spacing:     10.5px;
+        
+}
+/*END  Text pod licznikiem */
+/* Fotele */
+.mainArmchais{
+  
+    width: 800px;
+}
+.armchairs{
+   
+    margin-top:         5%;
 
-
-
+}
+/* End Fotele */
