@@ -6,9 +6,15 @@
 /* ---------------------------------------------------------- */
 /* Główny koneter */
 .mainContainer{
+    display: flex;
+    flex-direction: column;
+
+
+
     background-color:       cadetblue;
 
     height:                 2160px; 
+   
  
     
 }
@@ -46,6 +52,8 @@
 .nav-menu{
     background:               transparent url('Rectangle1.svg') 0% 0% no-repeat padding-box;
     height:                   152px;
+    width: 100%;
+   
     position:                 relative; 
 }
 /* END Menu */
@@ -62,6 +70,7 @@
 
     background-color:       rgb(255, 255, 255);
     height:                   1008px;
+    width:                      100%;
     position:                 relative; 
 
 
@@ -96,25 +105,26 @@
 /* Główny text */
 .mainTxt{
     
-    background-color: #ffffff;
+    background-color: transparent #ffffff;
+    z-index:            5;
  
     
 }
 .txt1 {
     color:                #000000;
-    font:                   normal normal normal 132px/211px Grafolita Script;
+    font:                   normal normal normal 14vmin/211px Grafolita Script;
     letter-spacing:         0px;
     text-align:             center;
 }
 .txt2 {
     color:            #000000;   
-    font:               normal normal normal 42px/68px URW Antiqua;
+    font:               normal normal normal 4.5vmin/68px URW Antiqua;
     letter-spacing:     12.6px;
     text-align:         center;
 }
 .txt3{
     color:            #000000;   
-    font:               normal normal normal 42px/68px URW Antiqua;
+    font:               normal normal normal 4.5vmin/68px URW Antiqua;
     letter-spacing:     12.6px;
     text-align:         center;
 }
@@ -163,12 +173,17 @@
     width:                  455px;
     height:                 75px;
     text-align:             center;
+    z-index:                3;
 }
 .btn-txt{
     color:            #FFFFFF;
     font:               normal normal normal 30px/45px URW Antiqua;
     letter-spacing:     9px;
 
+}
+.a-1{
+    color:                  #FFFFFF;
+    text-decoration:          none;
 }
 /* END BTN */
 
@@ -179,7 +194,7 @@
 /* register */
 .register{
     
-    background-color:     darkorange;
+    background-color:     rgb(255, 255, 255);
     height:                 1000px; 
     position:                relative;  
 }
@@ -236,3 +251,17 @@
 
 }
 /* End Fotele */
+
+
+/* text koncowy */
+.mainTxt3{
+    color:            #2B488B;
+    font:               normal normal normal 48px/78px URW Antiqua;
+    letter-spacing:     14.4px;
+    margin-top:         15%;
+    text-align:         center;
+    }
+/* End text koncowy */
+
+
+/* ---------------------------------------------------------- */
